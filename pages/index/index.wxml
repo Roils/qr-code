@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="qr-box">
+    <canvas canvas-id="qr" class="qr"></canvas>
+  </view>
+  <form action="">
+  <view>
+    <label for="">网址</label>
+        <input type="text" name="url" maxlength="140" placeholder=""/>
+        <button form-type="submit" class="btn" type="primary">生成二维码</button>
+  </view>
+    </form>
+</view>

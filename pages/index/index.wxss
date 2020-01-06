@@ -1,0 +1,10 @@
+/**index.wxss**/
+.qr{
+  height: 666rpx;
+  width: 100%;
+}
+.qr-box{
+  height: 666rpx;
+  width: 100%;
+  background-color: red;
+}
