@@ -1,13 +1,12 @@
-<!--index.wxml-->
+<!-- index.wxml -->
 <view class="container">
   <view class="qr-box">
     <canvas canvas-id="qr" class="qr"></canvas>
   </view>
-  <form action="">
-  <view>
-    <label for="">网址</label>
-        <input type="text" name="url" maxlength="140" placeholder=""/>
-        <button form-type="submit" class="btn" type="primary">生成二维码</button>
+  <view class="url">
+    <i-panel title="基础用法">
+      <i-input value="{{ value1 }}" title="输入网址" autofocus placeholder="名字" />
+    </i-panel>
+    <button type="primary" style="width:100%" size="mini">生成二维码</button>
   </view>
-    </form>
 </view>
